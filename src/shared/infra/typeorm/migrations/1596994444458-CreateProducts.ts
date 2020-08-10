@@ -21,10 +21,12 @@ export default class CreateProducts1596994444458 implements MigrationInterface {
             name: 'price',
             type: 'decimal',
             isUnique: true,
+            precision: 10,
+            scale: 2,
           },
           {
             name: 'quantity',
-            type: 'decimal',
+            type: 'integer',
             isUnique: true,
           },
           {
